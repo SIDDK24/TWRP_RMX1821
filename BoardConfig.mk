@@ -169,7 +169,7 @@ TW_INCLUDE_FUSE_EXFAT := true
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
 
-SHRP Device Specific Properties
+#SHRP Device Specific Properties
 SHRP_PATH := device/realme/RMX1821
 SHRP_MAINTAINER := SIDDK
 SHRP_OFFICIAL := true
