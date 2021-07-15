@@ -168,3 +168,25 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+SHRP Device Specific Properties
+SHRP_PATH := device/realme/RMX1821
+SHRP_MAINTAINER := SIDDK
+SHRP_OFFICIAL := true
+SHRP_DEVICE_CODE := RMX1821
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_only
+#SHRP_EXPRESS := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_NOTCH := true
+SHRP_DARK := true
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /proc/qcom_flash
+SHRP_FLASH_MAX_BRIGHTNESS := 1
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
