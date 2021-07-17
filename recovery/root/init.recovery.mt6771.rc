@@ -4,7 +4,9 @@ on fs
     install_keyring
     setprop crypto.ready 1
     write /sys/class/power_supply/usb/otg_switch 1
-
+    chown system system /proc/touchpanel/tp_fw_update
+    write /proc/touchpanel/tp_fw_update 1
+	
 service keystore_auth /system/bin/keystore_auth
     oneshot
     user system
